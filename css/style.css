@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  "Poppings", sans-serif;
+}
+
+.score{
+    font-size: large ;
+    border: 3px solid rgb(34, 34, 34) ;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.score--value{
+    font-weight: 500 ;
+    font-size: 2rem;
+    display: block;
+    margin-top: -10px;
+}
+.menu-screen{
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+
+}
+
+
+.game-over{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 2rem;
+}
+.final-score{
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.btn-play{
+    background-color: #0d4101;
+    padding: 10px 15px 10px 12px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-top: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(138, 139, 138);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+}
+.btn-play :hover{
+    background-color: aliceblue;
+    color: #999;
+}
+
+
+
+
+
+
+body{
+   background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/432780e4-f104-4387-987f-8611d44dc1c4/d9yaglh-8be26859-e719-4aa3-8db3-2b5582bebe2f.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQzMjc4MGU0LWYxMDQtNDM4Ny05ODdmLTg2MTFkNDRkYzFjNFwvZDl5YWdsaC04YmUyNjg1OS1lNzE5LTRhYTMtOGRiMy0yYjU1ODJiZWJlMmYuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.TghnVrrkS2G8y6OmyhVjzxoJJn9iIcQ-KK_2HfSQiS0);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 90vh;
+   color: white;
+   flex-direction: column;
+   background-size: cover;
+   background-position: cover;
+   
+}
+canvas{
+    background-color: black;
+
+}
